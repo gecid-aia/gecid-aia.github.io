@@ -1,46 +1,47 @@
+<!DOCTYPE html>
 <html>
-<head>
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="src/style/style.css">
-</head>
-<body>
-<div id="app">
-	<ul class="nav-bar">
-		<li v-on:click="changeText('s')" class="nav-element">
-			SOBRE NÓS
-		</li>
-		<li v-on:click="changeText('f')" class="nav-element">
-			FRENTES
-		</li>
-		<li v-on:click="changeText('p')" class="nav-element">
-			PESSOAS
-		</li>
-	</ul>
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="src/style/style.css">
+	</head>
+	<body>
+		<div id="app">
+			<ul class="nav-bar">
+				<li v-on:click="changeText('s')" class="nav-element">
+					SOBRE NÓS
+				</li>
+				<li v-on:click="changeText('f')" class="nav-element">
+					FRENTES
+				</li>
+				<li v-on:click="changeText('p')" class="nav-element">
+					PESSOAS
+				</li>
+			</ul>
 
-	<center>
-	<div>
-		<img id="main" class="main-banner" alt="GECID+AIA" src="src/images/gecid_logo_whitebg.jpeg">
-	</div>
-	</center>
-	<div>
-		<p v-html="show[0]"></p>
-	</div>
-	<hr>
-	<div>
-	<b>Contato: gecid@protonmail.com</b>
-	</div>
-	<hr>
-	<div id="banner">
-	    <div class="inline-block">
-	        <img src ="src/images/marielle.jpeg" height=150>
-	    </div>
+			<center>
+			<div>
+				<img id="main" class="main-banner" alt="GECID+AIA" src="src/images/gecid_logo_whitebg.jpeg">
+			</div>
+			</center>
+			<div>
+				<p v-html="show[0]"></p>
+			</div>
+			<div style = "padding: 30px"></div>
+			<div>
+			<p><b>Contato:</b> gecid@protonmail.com</p>
+			</div>
+			<hr>
+			<div id="banner">
+			    <div class="inline-block">
+			        <img src ="src/images/marielle.jpeg" height=150>
+			    </div>
 
-	    <div class="inline-block">
-	        <img src ="src/images/antifa.jpeg" height=150>
-	    </div>
-	</div>
-</div>
-</body>
-<script src="app.js"></script>
+			    <div class="inline-block">
+			        <img src ="src/images/antifa.jpeg" height=150>
+			    </div>
+			</div>
+		</div>
+	</body>
+	<script src="app.js"></script>
 </html>
