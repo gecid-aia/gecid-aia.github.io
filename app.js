@@ -14,21 +14,44 @@ var app = new Vue ({
 	<p>Material educativo para jovens que almejam uma formação em aprendizado de máquina mais ativista do que a proposta por cursos on line como o do Coursera. </p>
 	<h3>4. Tradução sequencial: Google Translate</h3>
 	<p>Artigo acadêmico a partir de resultados inusitados obtidos por experiências com tradução sequencial via Google Translate.</p>
+	<h3>5. Visão Computacional - Van Abbemuseum <a href="https://mediarxiv.org/nv9z2/" class="frente-button" target="_blank">Preprint</a></h3>
+	<p>Aproximações experimentais com os diversos sistemas de inteligências artificiais comerciais e seus bancos de imagens, como também seus processos de rotulagem.</p>
 </div>`,
 		pessoas:`<h1>Rede de colaboradores</h1>
 <ul>
-<li><a href="https://brunomoreschi.com">Bruno Moreschi</a> </li>
-<li><a href="https://www.gabrielpereira.net/">Gabriel Pereira</a></li>
-<li>Barbara Clemente</li>
-<li><a href="https://github.com/lucasns97">Lucas Nunes</a></li>
-<li><a href="https://gitlab.com/rafaelspeth">Rafael Tsuha</a></li>
-<li><a href="https://berinfontes.com/">Bernardo Fontes</a></li>
-<li><a href="https://guilhermefalcao.com/">Guilherme Falcão</a></li>
-<li>Didiana Prata de Lima</li>
-<li><a href="http://sites.poli.usp.br/p/fabio.cozman/">Fabio Cozman</a></li>
-
-<li><a href="http://www.desvirtual.com/">Giselle Beiguelman</a></li>
-<li><a href="http://www.centerartsdesign.org/">Center for Arts Design Social Research - CADSR</a></li>
+	<li class="persona-container">
+		<a href="https://brunomoreschi.com">Bruno Moreschi</a>
+	</li>
+	<li class="persona-container">
+		<a href="https://www.gabrielpereira.net/">Gabriel Pereira</a>
+	</li>
+	<li class="persona-container">
+		<a>Barbara Clemente</a>
+	</li>
+	<li class="persona-container">
+		<a href="https://github.com/lucasns97">Lucas Nunes</a>
+	</li>
+	<li class="persona-container">
+		<a href="https://gitlab.com/rafaelspeth">Rafael Tsuha</a>
+	</li>
+	<li class="persona-container">
+		<a href="https://berinfontes.com/">Bernardo Fontes</a>
+	</li>
+	<li class="persona-container">
+		<a href="https://guilhermefalcao.com/">Guilherme Falcão</a>
+	</li>
+	<li class="persona-container">
+		<a>Didiana Prata de Lima</a>
+	</li>
+	<li class="persona-container">
+		<a href="http://sites.poli.usp.br/p/fabio.cozman/">Fabio Cozman</a>
+	</li>
+	<li class="persona-container">
+		<a href="http://www.desvirtual.com/">Giselle Beiguelman</a>
+	</li>
+	<li class="persona-container">
+		<a href="http://www.centerartsdesign.org/">Center for Arts Design Social Research - CADSR</a>
+	</li>
 </ul>`
 
 	},

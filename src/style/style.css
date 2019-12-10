@@ -48,3 +48,24 @@ body{
 .inline-block {
    display: inline-block;
 }
+
+.persona-container {
+	padding: 7px;
+}
+
+.frente-button {
+	background-color: #222;
+	border-radius: 7px;
+	color: white;
+	padding: 6px 9px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 11px;
+	cursor: pointer;
+	box-shadow: 7px 7px 3px -3px rgba(0,0,0,0.4)
+}
+
+.frente-button:hover {
+	background-color: #555
+}
