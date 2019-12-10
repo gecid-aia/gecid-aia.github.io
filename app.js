@@ -3,11 +3,11 @@ var app = new Vue ({
 	data: {
 		show: [],
 		message: 'Hello vue',
-		sobrenos: `<h1 class="subtitle-container">Sobre nós</h1>
+		sobrenos: `<p class="subtitle-container">Sobre nós</p>
 <div class="text-container">
 	O Grupo de Experiências Críticas em Infraestruturas Digitais é um grupo ativista de pesquisadores de diferentes áreas de conhecimento localizado no Centro de Inovação da Universidade de São Paulo. Nosso trabalho envolve um conjunto de experiências que tem o objetivo de pensar e problematizar as infraestruturas contemporâneas a partir de uma lógica diversa da aplicada em centros de tecnologia do Norte Global.<br /><br />Estamos interessados em estimular estudos que pensem a tecnologia não de uma forma abstrata, mas inserida em contextos determinados, com implicações sociais. Por isso, os projetos são pensados a partir do contexto em que inserem: Sul Global, América Latina e Brasil. Os resultados e formulações resultantes dos projetos buscam engajar ao mesmo tempo o mundo acadêmico (através de artigos, jornais acadêmicos, etc), mas também um público geral (através de projetos artisticos, midia em geral, etc).
 </div>`,
-		frentes:`<h1 class="subtitle-container">Frentes de pesquisa em andamento</h1>
+		frentes:`<p class="subtitle-container">Frentes de pesquisa em andamento</p>
 <div class="text-container">
 	<h3>1. Exch w/ Turkers</h3>
 	<p>Website com trocas entre turkers na tentativa de vislumbrar novas e mais justas realidades de treinamento de máquinas.</p>
@@ -20,7 +20,7 @@ var app = new Vue ({
 	<h3>5. Visão Computacional - Van Abbemuseum <a href="https://mediarxiv.org/nv9z2/" class="frente-button" target="_blank">Preprint</a></h3>
 	<p>Aproximações experimentais com os diversos sistemas de inteligências artificiais comerciais e seus bancos de imagens, como também seus processos de rotulagem.</p>
 </div>`,
-		pessoas:`<h1 class="subtitle-container">Rede de colaboradores</h1>
+		pessoas:`<p class="subtitle-container">Rede de colaboradores</p>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class="persona-row">
 	<div class="persona-column">

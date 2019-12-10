@@ -40,6 +40,8 @@ body{
 
 .subtitle-container {
 	margin-left: 1%;
+	font-size: 30px;
+	text-decoration: none;
 }
 
 .text-container{
@@ -58,9 +60,6 @@ body{
 
 .persona-container {
 	padding: 7px;
-	.a {
-		font-size: 100px;
-	}
 }
 
 .persona-img {
@@ -69,15 +68,15 @@ body{
 }
 
 .persona-column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+	float: left;
+	width: 50%;
+	padding: 10px;
 }
 
 .persona-row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .persona-name {
