@@ -3,8 +3,11 @@ var app = new Vue ({
 	data: {
 		show: [],
 		message: 'Hello vue',
-		sobrenos: `<h1>Sobre nós</h1><div class="text-container">O Grupo de Experiências Críticas em Infraestruturas Digitais é um grupo ativista de pesquisadores de diferentes áreas de conhecimento localizado no Centro de Inovação da Universidade de São Paulo. Nosso trabalho envolve um conjunto de experiências que tem o objetivo de pensar e problematizar as infraestruturas contemporâneas a partir de uma lógica diversa da aplicada em centros de tecnologia do Norte Global.<br /><br />Estamos interessados em estimular estudos que pensem a tecnologia não de uma forma abstrata, mas inserida em contextos determinados, com implicações sociais. Por isso, os projetos são pensados a partir do contexto em que inserem: Sul Global, América Latina e Brasil. Os resultados e formulações resultantes dos projetos buscam engajar ao mesmo tempo o mundo acadêmico (através de artigos, jornais acadêmicos, etc), mas também um público geral (através de projetos artisticos, midia em geral, etc).</div>`,
-		frentes:`<h1>Frentes de pesquisa em andamento</h1>
+		sobrenos: `<h1 class="subtitle-container">Sobre nós</h1>
+<div class="text-container">
+	O Grupo de Experiências Críticas em Infraestruturas Digitais é um grupo ativista de pesquisadores de diferentes áreas de conhecimento localizado no Centro de Inovação da Universidade de São Paulo. Nosso trabalho envolve um conjunto de experiências que tem o objetivo de pensar e problematizar as infraestruturas contemporâneas a partir de uma lógica diversa da aplicada em centros de tecnologia do Norte Global.<br /><br />Estamos interessados em estimular estudos que pensem a tecnologia não de uma forma abstrata, mas inserida em contextos determinados, com implicações sociais. Por isso, os projetos são pensados a partir do contexto em que inserem: Sul Global, América Latina e Brasil. Os resultados e formulações resultantes dos projetos buscam engajar ao mesmo tempo o mundo acadêmico (através de artigos, jornais acadêmicos, etc), mas também um público geral (através de projetos artisticos, midia em geral, etc).
+</div>`,
+		frentes:`<h1 class="subtitle-container">Frentes de pesquisa em andamento</h1>
 <div class="text-container">
 	<h3>1. Exch w/ Turkers</h3>
 	<p>Website com trocas entre turkers na tentativa de vislumbrar novas e mais justas realidades de treinamento de máquinas.</p>
@@ -17,42 +20,62 @@ var app = new Vue ({
 	<h3>5. Visão Computacional - Van Abbemuseum <a href="https://mediarxiv.org/nv9z2/" class="frente-button" target="_blank">Preprint</a></h3>
 	<p>Aproximações experimentais com os diversos sistemas de inteligências artificiais comerciais e seus bancos de imagens, como também seus processos de rotulagem.</p>
 </div>`,
-		pessoas:`<h1>Rede de colaboradores</h1>
-<ul>
-	<li class="persona-container">
-		<a href="https://brunomoreschi.com">Bruno Moreschi</a>
-	</li>
-	<li class="persona-container">
-		<a href="https://www.gabrielpereira.net/">Gabriel Pereira</a>
-	</li>
-	<li class="persona-container">
-		<a>Barbara Clemente</a>
-	</li>
-	<li class="persona-container">
-		<a href="https://github.com/lucasns97">Lucas Nunes</a>
-	</li>
-	<li class="persona-container">
-		<a href="https://gitlab.com/rafaelspeth">Rafael Tsuha</a>
-	</li>
-	<li class="persona-container">
-		<a href="https://berinfontes.com/">Bernardo Fontes</a>
-	</li>
-	<li class="persona-container">
-		<a href="https://guilhermefalcao.com/">Guilherme Falcão</a>
-	</li>
-	<li class="persona-container">
-		<a>Didiana Prata de Lima</a>
-	</li>
-	<li class="persona-container">
-		<a href="http://sites.poli.usp.br/p/fabio.cozman/">Fabio Cozman</a>
-	</li>
-	<li class="persona-container">
-		<a href="http://www.desvirtual.com/">Giselle Beiguelman</a>
-	</li>
-	<li class="persona-container">
-		<a href="http://www.centerartsdesign.org/">Center for Arts Design Social Research - CADSR</a>
-	</li>
-</ul>`
+		pessoas:`<h1 class="subtitle-container">Rede de colaboradores</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="persona-row">
+	<div class="persona-column">
+		<ul style="list-style-type:none;">
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" href="https://brunomoreschi.com">Bruno Moreschi</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" href="https://www.gabrielpereira.net/">Gabriel Pereira</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" >Barbara Clemente</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/lucas_nunes.png">
+				<a class = "persona-name" href="https://github.com/lucasns97">Lucas Nunes Sequeira</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" href="https://gitlab.com/rafaelspeth">Rafael Tsuha</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" href="https://berinfontes.com/">Bernardo Fontes</a>
+			</li>
+		</ul>
+	</div>
+	<div class="persona-column">
+		<ul style="list-style-type:none;">
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" href="https://guilhermefalcao.com/">Guilherme Falcão</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" >Didiana Prata de Lima</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" href="http://sites.poli.usp.br/p/fabio.cozman/">Fabio Cozman</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" href="http://www.desvirtual.com/">Giselle Beiguelman</a>
+			</li>
+			<li class="persona-container">
+				<img class = "persona-img" src="src/images/personas/default.png">
+				<a class = "persona-name" href="http://www.centerartsdesign.org/">Center for Arts Design Social Research - CADSR</a>
+			</li>
+		</ul>
+	</div>
+</div>`
 
 	},
 	methods: {
