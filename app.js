@@ -27,27 +27,27 @@ var app = new Vue ({
 		<ul style="list-style-type:none;">
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" href="https://brunomoreschi.com">Bruno Moreschi</a>
+				<a class = "persona-name" href="https://brunomoreschi.com" target="_blank">Bruno Moreschi</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" href="https://www.gabrielpereira.net/">Gabriel Pereira</a>
+				<a class = "persona-name" href="https://www.gabrielpereira.net/" target="_blank">Gabriel Pereira</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" >Barbara Clemente</a>
+				<a class = "persona-name" target="_blank">Barbara Clemente</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/lucas_nunes.png">
-				<a class = "persona-name" href="https://github.com/lucasns97">Lucas Nunes Sequeira</a>
+				<a class = "persona-name" href="https://github.com/lucasns97" target="_blank">Lucas Nunes Sequeira</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" href="https://gitlab.com/rafaelspeth">Rafael Tsuha</a>
+				<a class = "persona-name" href="https://gitlab.com/rafaelspeth" target="_blank">Rafael Tsuha</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" href="https://berinfontes.com/">Bernardo Fontes</a>
+				<a class = "persona-name" href="https://berinfontes.com/" target="_blank">Bernardo Fontes</a>
 			</li>
 		</ul>
 	</div>
@@ -55,23 +55,23 @@ var app = new Vue ({
 		<ul style="list-style-type:none;">
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" href="https://guilhermefalcao.com/">Guilherme Falcão</a>
+				<a class = "persona-name" href="https://guilhermefalcao.com/" target="_blank">Guilherme Falcão</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" >Didiana Prata de Lima</a>
+				<a class = "persona-name" target="_blank">Didiana Prata de Lima</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" href="http://sites.poli.usp.br/p/fabio.cozman/">Fabio Cozman</a>
+				<a class = "persona-name" href="http://sites.poli.usp.br/p/fabio.cozman/" target="_blank">Fabio Cozman</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" href="http://www.desvirtual.com/">Giselle Beiguelman</a>
+				<a class = "persona-name" href="http://www.desvirtual.com/" target="_blank">Giselle Beiguelman</a>
 			</li>
 			<li class="persona-container">
 				<img class = "persona-img" src="src/images/personas/default.png">
-				<a class = "persona-name" href="http://www.centerartsdesign.org/">Center for Arts Design Social Research - CADSR</a>
+				<a class = "persona-name" href="http://www.centerartsdesign.org/" target="_blank">Center for Arts Design Social Research - CADSR</a>
 			</li>
 		</ul>
 	</div>
