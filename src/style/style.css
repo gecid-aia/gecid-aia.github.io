@@ -3,7 +3,7 @@ body{
 	color: #222;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: 'Function Pro Book', sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Ubuntu,Oxygen,Cantarell,open sans,helvetica neue,sans-serif;
 }
 .vue-text{
 	white-space: pre-wrap;
