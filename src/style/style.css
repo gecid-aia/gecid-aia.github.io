@@ -16,6 +16,45 @@ h1, h2, h3, h4, h5, h6, b, strong, b, .bold {
 	font-variant: normal; 
 }
 
+div.relative1 {
+	position: relative;
+	left: 33.3333333%;
+}
+
+div.relative2 {
+	position: relative;
+	left: 66.6666666%;
+}
+
+
+.tablink {
+	background-color: black;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 17px;
+	width: 33.3333333%;
+	height: 40px;
+	margin-top: 0px;
+	float: left;
+	position: fixed;
+	box-shadow: 0 5px 2px -2px rgba(0,0,0,0.2);
+
+}
+
+.tablink:hover {
+	background-color: #222;
+}
+
+.tabcontent {
+	color: black;
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
+  }
+
 .vue-text{
 	white-space: pre-wrap;
 }
@@ -46,7 +85,8 @@ h1, h2, h3, h4, h5, h6, b, strong, b, .bold {
 }
 
 .main-banner{
-	width: 90%;
+	width: 43%;
+	margin-top: 10%;
 }
 
 .subtitle-container {
